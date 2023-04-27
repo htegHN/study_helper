@@ -36,7 +36,7 @@
 /*scroll bar design*/
 
 .todolist__items-form::-webkit-scrollbar {
-    background-color: rgb(185, 224, 187);
+    background-color:#b9e0bb;
     border-radius: 6px;
     width: 7px;
     border-radius: 6px;
@@ -44,7 +44,8 @@
 }
 
 .todolist__items-form::-webkit-scrollbar-thumb {
-    background-color: rgb(146, 190, 146);
+    background-color: #92be92;
+    color:white;
     width: 7px;
     border-radius: 6px;
 }
@@ -126,7 +127,6 @@
     width: 80%;
     height: 30px;
     border:none;
-    color: rgba(32, 32, 32, 0.911);
     font-size: 13px;
     font-weight: 600;
     padding-left: 15px;
@@ -147,7 +147,7 @@
     width: 28px;
     height: 28px;
     border-radius: 4px;
-    background-color: rgb(182 227 162);
+    background-color: #b9e0bb;
 }
 
 @media (max-width: 576px) {
@@ -165,7 +165,7 @@
 .item__edit-btn, .item__delete-btn {
     position:absolute;
     top: 2.8px;
-    color: rgb(82 142 42);
+    color: #538e2a;
     font-size: 24px;
     user-select: none;
 }
